@@ -1,0 +1,36 @@
+.body {
+    font-family:'Open Sans','sans-serif';
+    font-size: 14px;
+    margin: 0;
+    height: auto;
+    padding: 0;
+    width: 450px;
+}
+.modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+.modal-icons {
+    border-bottom: 0.5px solid #dadada;
+    height: 50px;
+    width: 100%;
+}
+.logo-icon {
+    width: 40px;
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+.flex:hover {
+    opacity: 0.4;
+}
+.mybBtn {
+    margin-top: 10px;
+}
+.myIframe{
+    width: 100%;
+    height: 300px;
+}

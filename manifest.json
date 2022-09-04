@@ -1,0 +1,19 @@
+{
+   "action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "https://www.facebook.com/*" ]
+   } ],
+   "description": "Quick Launch Friends Add & Confirm",
+   "icons": {
+      "120": "img/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAooyHl0hbAChYVvAAjj5kKimUTT4TkXMNzRk1CNthIcKLupAeQ3ytNk+m+a+8+76tcJoaxwbc5CeUpWr68uu4oeNg2owEd7KqT/XZPg/AWg9CazvBXL7FDVdhmcqD0F8SsTtG23OEtGbZmE16gvE+rcefs7PkELXkKPOSXE2q+eB/1XrqA0JspIcS7FoRl/7afmh8+fqg6jed/jaTtGsxLOxGBY25j2eAwa7QznhL0vIeqaqNYBxF1MWyoRIUzfLUYLDkGTwUbz8aquntxQaVPJ4/gS8BF33/cnJgBOI9bDILl75CG6hFIrSikSWUDJu0nAcFGktN1+BTfNLpGUWF7QIDAQAB",
+   "manifest_version": 3,
+   "name": "Friends Add & Confirm",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}
